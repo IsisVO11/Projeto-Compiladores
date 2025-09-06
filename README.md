@@ -111,7 +111,7 @@ java -cp target/classes compilador.Main exemplos/exemplo1.lang
 java -cp target/classes compilador.Main -ast exemplos/exemplo1.lang
 
 ## 💻 Exemplos de Código
-##Exemplo da Linguagem
+**Exemplo da Linguagem**
 javascript
 // Programa de exemplo na linguagem proprietária
 programa OláMundo
