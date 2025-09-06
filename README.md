@@ -38,27 +38,49 @@ Compilador completo desenvolvido em Java para uma linguagem de programação pro
 
 ## 📁 Estrutura do Projeto
 Projeto-Compiladores/
+
 ├── src/
+
 │ ├── main/
+
 │ │ ├── java/
+
 │ │ │ └── compilador/
+
 │ │ │ ├── analisador/ # Análise léxica e sintática
+
 │ │ │ ├── arvore/ # Estruturas da AST
+
 │ │ │ ├── codigo/ # Geração de código intermediário
+
 │ │ │ ├── erro/ # Sistema de tratamento de erros
+
 │ │ │ └── otimizacao/ # Técnicas de otimização
+
 │ │ └── antlr/ # Gramáticas ANTLR
+
 │ │ └── Linguagem.g4 # Gramática da linguagem
+
 │ └── test/
+
 │ └── java/
+
 │ └── compilador/ # Testes unitários
+
 ├── exemplos/ # Programas de exemplo
+
 │ ├── exemplo1.lang
+
 │ ├── exemplo2.lang
+
 │ └── exemplo3.lang
+
 ├── relatorio/ # Documentação técnica
+
 │ ├── especificacao.md
+
 │ └── manual.md
+
 └── README.md
 
 
@@ -71,24 +93,25 @@ Projeto-Compiladores/
 
 ### Clone e Build
 
-# Clone o repositório
+### Clone o repositório
 git clone https://github.com/IsisVO11/Projeto-Compiladores.git
 cd Projeto-Compiladores
 
-# Execute o build com Maven
+### Execute o build com Maven
 mvn clean compile
 
-# Execute os testes
+### Execute os testes
 mvn test
 Executando o Compilador
-bash
-# Compilar um arquivo de exemplo
+
+### Compilar um arquivo de exemplo
 java -cp target/classes compilador.Main exemplos/exemplo1.lang
 
-# Gerar AST visual (se implementado)
+### Gerar AST visual (se implementado)
 java -cp target/classes compilador.Main -ast exemplos/exemplo1.lang
-💻 Exemplos de Código
-Exemplo da Linguagem
+
+## 💻 Exemplos de Código
+##Exemplo da Linguagem
 javascript
 // Programa de exemplo na linguagem proprietária
 programa OláMundo
@@ -104,7 +127,7 @@ início
 fim
 Saída do Compilador
 assembly
-# Código intermediário gerado
+### Código intermediário gerado
 START:
     LOAD 10, R1
     STORE R1, x
@@ -125,7 +148,7 @@ END_IF:
     HALT
 
 
-🤝 Contribuição
+## 🤝 Contribuição
 Contribuições são bem-vindas! Siga estos passos:
 
 Faça um Fork do projeto
@@ -138,8 +161,8 @@ Push para a Branch (git push origin feature/AmazingFeature)
 
 Abra um Pull Request
 
-📝 Licença
+## 📝 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para detalhes.
 
-👩💻 Autora
+## 👩💻 Autora
 Isis Venturin - LinkedIn: https://www.linkedin.com/in/isis-venturin-b72443296/ | GitHub: https://github.com/IsisVO11
